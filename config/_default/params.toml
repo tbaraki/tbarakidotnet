@@ -1,0 +1,53 @@
+# -- Theme Options --
+# These options control how the theme functions and allow you to
+# customise the display of your website.
+#
+# Refer to the theme docs for more details about each of these parameters.
+# https://jpanther.github.io/congo/docs/configuration/#theme-parameters
+
+colorScheme = "mono"
+darkMode = "true"
+darkToggle = false
+# logo = "img/logo.jpg" #replaces title/home link inn header
+description = "The personal blog of Travis Baraki."
+mainSections = ["posts"]
+robots = "all"
+
+[homepage]
+  layout = "custom" # valid options: page, profile, custom
+  showRecent = false
+
+[article]
+  showDate = true
+  dateFormat = "January 2 2006"
+  showAuthor = false
+  showBreadcrumbs = false
+  showDraftLabel = true
+  showEdit = false
+  # editURL = "https://github.com/username/repo/"
+  editAppendPath = true
+  showHeadingAnchors = true
+  showPagination = true
+  showReadingTime = true
+  #sharingLinks = ["facebook", "twitter", "pinterest", "reddit", "linkedin", "email"]
+
+[list]
+  showBreadcrumbs = false
+  showSummary = true
+  groupByYear = false
+
+[taxonomy]
+  showTermCount = true
+
+[sitemap]
+  excludedKinds = ["taxonomy", "term"]
+
+[fathomAnalytics]
+  # site = "ABC12345"
+  # domain = "llama.yoursite.com"
+
+[verification]
+  # google = ""
+  # bing = ""
+  # pinterest = ""
+  # yandex = ""
