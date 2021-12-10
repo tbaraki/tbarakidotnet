@@ -17,7 +17,7 @@
 
 [[main]]
   name = "Posts"
-  pageRef = "posts"
+  url = "https://tbaraki.net/posts"
   weight = 20
 
 
