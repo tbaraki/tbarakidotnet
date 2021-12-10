@@ -1,6 +1,6 @@
 ---
 date: "2021-12-07"
-draft: true
+draft: false
 slug: resume-as-code
 title: Building and deploying a "resume-as-code"
 ---
@@ -13,7 +13,7 @@ I recently decided to test out the job market and look for a new challenge. My p
 
 ## Concept
 
-My previous resume had been created using [LaTeX](https://www.latex-project.org/). I enjoyed this approach as it meant that the content could be decoupled from the styling and layout of the document. I was looking for somthing similar but more approachable. A quick search brought me to the [JSON Resume](https://jsonresume.org/) and [yaml-resume](https://yaml-resume.com/) projects. I was intrigued by the idea of keeping work history and personal details in a structured data file, YAML in particular. I've used Static Site Generators in the past, such as [Hugo](https://gohugo.io) or [Gatsby](https://www.gatsbyjs.com/), which accomplish something similar. Page _content_ can be written in simple Markdown and the resulting pages are styled at build time. It seemed natural to combine these two ideas and create a static resume website based off structed data files.
+My previous resume had been created using [LaTeX](https://www.latex-project.org/). I enjoyed this approach as it meant that the content could be decoupled from the styling and layout of the document. I was looking for something similar but more approachable. A quick search brought me to the [JSON Resume](https://jsonresume.org/) and [yaml-resume](https://yaml-resume.com/) projects. I was intrigued by the idea of keeping work history and personal details in a structured data file, YAML in particular. I've used Static Site Generators in the past, such as [Hugo](https://gohugo.io) or [Gatsby](https://www.gatsbyjs.com/), which accomplish something similar. Page _content_ can be written in simple Markdown and the resulting pages are styled at build time. It seemed natural to combine these two ideas and create a static resume website based off structured data files.
 
 ## Breakthrough
 
@@ -41,7 +41,7 @@ Now I simply had to record my work history and personal info in YAML files:
 ```
 ## Deployment
 
-With the content created, I needed a place to host the finished product. I decided to deploy to my Azure subscription using Azure Static Web Apps. The CI/CD workflow is simple yet powerful. It triggers on main branch pushes _or_ pull requests. This means that a pull request from a feature branch will automatically generate a live testing environment in Azure. Very cool!
+With the content created, I needed a place to host the finished product. I decided to deploy to my Azure subscription using Azure Static Web Apps. The CI/CD workflow is simple yet powerful. It triggers on main branch pushes _or_ pull requests. This means that a pull request from a feature branch will automatically generate a live staging environment in Azure to preview the changes. Very cool!
 
 ```yaml
 name: Azure Static Web Apps CI/CD
@@ -62,10 +62,8 @@ I see a few major benefits from building a resume this way:
 
 * Structured data allows me to cleanly and concisely document my history and experiences.
 * Source control (git) makes it easy to version and implement changes.
+* CI/CD pipelines make deploying changes effortless.
 * A live resume website provides a positive web presence and acts as a portfolio piece.
 
-I'm thrilled with the end result and love that I can continuously deploy tweaks and updatres in the future.
+I'm thrilled with [the end result](https://resume.tbaraki.net) and love that I can continuously deploy tweaks and updates in the future.
 
-{{< call to action >}}
-[Resume](https://resume.tbaraki.net)
-{{< /call to action >}}

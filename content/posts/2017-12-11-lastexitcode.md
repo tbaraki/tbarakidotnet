@@ -9,9 +9,9 @@ title: '$null and $LASTEXITCODE'
 
 ## The Background
 
-User onboarding and account creation is time consuming and error prone. I try to avoid online admin portals as much as possible as they tend to be slow as molasses and bury useful settings under many levels of menus. For the administration of our Microsoft products, just about all tasks have the appropriate Powershell commandlets available by default. For our G Suite products, I have relied heavily on [Google Apps Management (GAM)](https://github.com/jay0lee/GAM), a cross platform command line utility for managing G Suite via API.
+User onboarding and account creation is time consuming and error prone. I try to avoid online admin portals as much as possible as they tend to be slow as molasses and bury useful settings under many levels of menus. For the administration of our Microsoft products, just about all tasks have the appropriate PowerShell cmdlets available by default. For our G Suite products, I have relied heavily on [Google Apps Management (GAM)](https://github.com/jay0lee/GAM), a cross platform command line utility for managing G Suite via API.
 
-To further streamline the process, user account creation is automated with Powershell working from automatic .csv extracts from our local data system. My original G Suite user provisioning script was working fine but took ages to complete. It was extremely crude — it would try to create each user whether or not they already existed. This required GAM to try the account creation, fail, and then report the error before continuing to the next record. Just about what you'd expect a total rookie to come up with.
+To further streamline the process, user account creation is automated with PowerShell working from automatic .csv extracts from our local data system. My original G Suite user provisioning script was working fine but took ages to complete. It was extremely crude — it would try to create each user whether or not they already existed. This required GAM to try the account creation, fail, and then report the error before continuing to the next record. Just about what you'd expect a total rookie to come up with.
 
 ```powershell
 foreach ($entry in $Data) {
