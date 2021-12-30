@@ -18,7 +18,7 @@
 [[main]]
   name = "Posts"
   pageRef = "Posts"
-  url = /posts/
+  url = "/posts/"
   weight = 20
 
 
