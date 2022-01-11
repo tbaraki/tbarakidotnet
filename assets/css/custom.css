@@ -11,9 +11,8 @@
     padding: 0 0 1rem 0;
 }
 
-span.flex {
-    padding: 1rem 0 0 0;
-    /* margin: auto auto; */
+span.flex-col {
+    padding: 0;
 }
 
 /* .prose p {
@@ -22,4 +21,8 @@ span.flex {
 
 .prose p a:hover {
     background-color: initial;
+}
+
+img.rounded-full {
+    margin-top: 1.5rem;
 }
