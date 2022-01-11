@@ -16,6 +16,10 @@ span.flex {
     /* margin: auto auto; */
 }
 
+span.flex-col {
+    padding: 0;
+}
+
 /* .prose p {
     font-size: 1.1rem;
 } */
