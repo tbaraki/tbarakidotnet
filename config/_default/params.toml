@@ -19,7 +19,7 @@ robots = "all"
 
 [article]
   showDate = true
-  dateFormat = "January 2 2006"
+  dateFormat = "January 2, 2006"
   showAuthor = false
   showBreadcrumbs = false
   showDraftLabel = true
