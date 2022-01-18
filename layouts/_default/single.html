@@ -17,6 +17,7 @@
     </section>
     <footer class="pt-8">
         <div>
+          <a class="text-base font-bold text-neutral-900 dark:text-neutral" href="/tags/">Tags:</a><br>
             {{ range .Params.tags }}
             <button class="rounded-md"><a href=/tags/{{ . | urlize }}>{{ . }}</a></button>
             {{ end }}
