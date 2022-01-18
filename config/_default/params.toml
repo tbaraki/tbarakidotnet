@@ -24,11 +24,14 @@ robots = "all"
   showBreadcrumbs = true
   showDraftLabel = true
   showEdit = false
+  showDateUpdated = false
   # editURL = "https://github.com/username/repo/"
   editAppendPath = true
   showHeadingAnchors = true
   showPagination = true
   showReadingTime = true
+  showWordCount = false
+
   #sharingLinks = ["facebook", "twitter", "pinterest", "reddit", "linkedin", "email"]
 
 [list]
