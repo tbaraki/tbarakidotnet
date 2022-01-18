@@ -3,7 +3,7 @@ date: "2021-12-07"
 draft: false
 slug: resume-as-code
 title: Building and deploying a "resume-as-code"
-tags: ['CI/CD', 'Azure']
+tags: ['Azure', 'Automation']
 ---
 
 I recently decided to test out the job market and look for a new challenge. My plan was to:
