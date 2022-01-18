@@ -3,6 +3,7 @@ date: 2017-12-11
 draft: false
 slug: null-LASTEXITCODE
 title: '$null and $LASTEXITCODE'
+tags: ['Automation', 'PowerShell']
 ---
 
 > I wrote this a few years ago. It is interesting to look back with a fresh perspective. Also, the modern data systems now include all this functionality by default. No need to script it manually. :shrug:

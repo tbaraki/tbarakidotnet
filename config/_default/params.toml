@@ -21,7 +21,7 @@ robots = "all"
   showDate = true
   dateFormat = "January 2, 2006"
   showAuthor = false
-  showBreadcrumbs = false
+  showBreadcrumbs = true
   showDraftLabel = true
   showEdit = false
   # editURL = "https://github.com/username/repo/"
@@ -32,7 +32,7 @@ robots = "all"
   #sharingLinks = ["facebook", "twitter", "pinterest", "reddit", "linkedin", "email"]
 
 [list]
-  showBreadcrumbs = false
+  showBreadcrumbs = true
   showSummary = true
   groupByYear = false
 

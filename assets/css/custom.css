@@ -26,3 +26,16 @@ span.flex-col {
 img.rounded-full {
     margin-top: 1.5rem;
 }
+
+button {
+    border: 1px solid #FBBF24;
+    color: #FBBF24;
+    padding: 2px 10px 2px 10px;
+    font-size: 1rem;
+    margin-right: 8px;
+}
+
+button:hover {
+    background-color: #FBBF24;
+    color: #334155;
+}
