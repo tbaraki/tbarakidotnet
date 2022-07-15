@@ -6,7 +6,8 @@ showReadingTime: false
 
 ``` bash
 travis@thinkpad:~$ cat interests.txt
-coffee
-cats
-cloud operations
+- Cloud Migration
+- Zero-Touch Deployments
+- Modern Identity and SSO
+
 ```
