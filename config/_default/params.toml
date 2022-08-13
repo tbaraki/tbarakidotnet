@@ -8,7 +8,7 @@
 colorScheme = "mono"
 darkMode = "true"
 darkToggle = false
-# logo = "img/logo.jpg" #replaces title/home link inn header
+# logo = "img/author.jpg" #replaces title/home link inn header
 description = "The personal blog of Travis Baraki."
 mainSections = ["posts"]
 robots = "all"
