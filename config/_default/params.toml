@@ -6,10 +6,10 @@
 # https://jpanther.github.io/congo/docs/configuration/#theme-parameters
 
 colorScheme = "mono"
-darkMode = "true"
-darkToggle = false
+defaultAppearance = "dark"
+autoSwitchAppearance = false
+footer.showAppearanceSwitcher = true
 # logo = "img/author.jpg" #replaces title/home link inn header
-description = "The personal blog of Travis Baraki."
 mainSections = ["posts"]
 robots = "all"
 
@@ -19,7 +19,6 @@ robots = "all"
 
 [article]
   showDate = true
-  dateFormat = "January 2, 2006"
   showAuthor = false
   showBreadcrumbs = true
   showDraftLabel = true
