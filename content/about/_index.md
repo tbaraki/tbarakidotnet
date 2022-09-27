@@ -23,10 +23,10 @@ travis@thinkpad> python3 aboutMe.py
     "displayName": "Travis Baraki",
     "givenName": "Travis",
     "surname": "Baraki",
-    "jobTitle": "Systems Administrator/Engineer",
+    "jobTitle": "Security Engineer, IAM",
     "mail": "travis@tbaraki.net",
     "officeLocation": "California - Remote",
     "cats": 2,
-    "interests": ['Azure AD', 'IAM', 'Autopilot', 'Intune', 'PowerShell']
+    "interests": ['Azure AD', 'Okta', 'IAM', 'Autopilot', 'Intune', 'PowerShell']
 }
 ```
